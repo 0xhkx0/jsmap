@@ -1,0 +1,43 @@
+# Binaries
+
+testserver
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+*.out
+
+# Go workspace
+go.work
+
+# Generated reports  
+*.html
+*.json
+*.csv
+!examples/**/*.json
+!test/**/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.bak
+tmp/
+temp/
+
+# Coverage
+*.coverprofile
+coverage.out
+
+test/
